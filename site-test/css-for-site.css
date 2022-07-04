@@ -1,0 +1,53 @@
+.navbar {
+	color: white;
+	font-size: 18px;
+}
+#home {
+	color: white;
+}
+.carousel-caption {
+	background-color: rgba(68, 0, 255, 0.5);
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial;	
+}
+
+.carousel-item {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: rgb(68, 0, 255);
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: rgb(68, 0, 255);
+}
+
+.carousel-inner {
+	height: 90vh;
+}
+
+#foot {
+	background-color: rgba(68, 0, 255, 0.9);"
+}
+
+.fab:hover {
+	color: lightgrey;
+}
